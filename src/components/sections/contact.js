@@ -108,7 +108,7 @@ const ContactForm = () => {
 
       <p className="socialText">Send me a message! My inbox is always open.</p>
 
-      <form onSubmit={handleSubmit}>
+      <form onSubmit={handleSubmit} data-netlify="true">
         <div className="messageInput">
           <input type="text" id="name" placeholder="Name" maxLength={64} required />
         </div>
