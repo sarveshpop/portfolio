@@ -88,7 +88,7 @@ const Footer = () => (
         <a href="https://github.com/bchiang7/v4">Brittany Chiang</a>
       </span>
       <span>
-        Adopted by
+        Built by
         <a href="https://github.com/sarveshpop">Sarvesh Patil</a>
       </span>
     </StyledCredit>
