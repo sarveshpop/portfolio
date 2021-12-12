@@ -3,8 +3,7 @@ const config = require('./src/config');
 module.exports = {
   siteMetadata: {
     title: 'Sarvesh Patil',
-    description:
-      'Brittany Chiang is a software engineer who specializes in building (and occasionally designing) exceptional digital experiences.',
+    description: 'Sarvesh Patil - Portfolio',
     siteUrl: 'https://brittanychiang.com', // No trailing slash allowed!
     image: '/og.png', // Path to your image you placed in the 'static' folder
     twitterUsername: '@bchiang7',
@@ -74,7 +73,7 @@ module.exports = {
             // https://www.gatsbyjs.org/packages/gatsby-remark-images
             resolve: 'gatsby-remark-images',
             options: {
-              maxWidth: 700,
+              maxWidth: 1000,
               linkImagesToOriginal: true,
               quality: 90,
               tracedSVG: { color: config.colors.green },

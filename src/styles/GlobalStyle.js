@@ -506,9 +506,9 @@ const GlobalStyle = createGlobalStyle`
   border:  1.5px solid var(--white);
   background-color: transparent;
   color: var(--white);
-  font-size: var(--fz-sm);
+  font-size: var(--fz-md);
   border-radius: 3.5px;
-  padding: 10px 15px 10px 15px;
+  padding: 12px 20px 12px 20px;
     @media (max-width: 768px) {
     border-radius: 3.5px;
   }
@@ -685,6 +685,7 @@ textarea::-webkit-scrollbar-thumb {
     font-family: var(--font-mono);
     font-size: var(--fz-md);
     font-weight: 400;
+
   }
 
   .subtitle {

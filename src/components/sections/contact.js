@@ -44,8 +44,6 @@ const StyledContactSection = styled.section`
     padding-top: 20px;
     padding-bottom: 10px;
   }
-
-  
 `;
 
 const StyledSocialList = styled.ul`
@@ -63,8 +61,6 @@ const StyledSocialList = styled.ul`
   }
 
   }`;
-
-
 
 const ContactForm = () => {
   const [status, setStatus] = useState('Send');
@@ -88,49 +84,45 @@ const ContactForm = () => {
     const result = await response.json();
     alert(result.status);
   };
-    
+
   return (
     <StyledContactSection id="contact">
-      <h2 className="numbered-heading overline">Contact</h2>
+      <h2 className="numbered-heading overline ver2">Contact</h2>
 
       <h2 className="title">Get In Touch</h2>
-      <p className='socialText'>
-        You can find me on: 
-      </p>
+      <p className="socialText">You can find me on:</p>
       <div>
         <StyledSocialList>
           {socialMedia &&
-        socialMedia.map(({ url, name }, i) => (
-          <li key={i}>
-            <a className='social' href={url} aria-label={name} target="_blank" rel="noreferrer">
-              <Icon name={name} />
-            </a>
-          </li>
-        ))}
+            socialMedia.map(({ url, name }, i) => (
+              <li key={i}>
+                <a className="social" href={url} aria-label={name} target="_blank" rel="noreferrer">
+                  <Icon name={name} />
+                </a>
+              </li>
+            ))}
         </StyledSocialList>
       </div>
 
-      <p className='socialText'>
-        OR 
-      </p>
+      <p className="socialText">OR</p>
 
-      <p className='socialText'>
-        Send me a message! My inbox is always open.
-      </p>
+      <p className="socialText">Send me a message! My inbox is always open.</p>
 
       <form onSubmit={handleSubmit}>
-        <div className='messageInput'>
-          <input type="text" id="name" placeholder='Name'  maxLength={64} required />
+        <div className="messageInput">
+          <input type="text" id="name" placeholder="Name" maxLength={64} required />
         </div>
-        <div className='messageInput'>
-          <input type="email" id="email" placeholder='Email' maxLength={64}  required />
+        <div className="messageInput">
+          <input type="email" id="email" placeholder="Email" maxLength={64} required />
         </div>
-        <div className='messageInput'>
-          <textarea id="message" placeholder='Message' maxLength={420} rows={5} required />
+        <div className="messageInput">
+          <textarea id="message" placeholder="Message" maxLength={420} rows={5} required />
         </div>
-        <button className='styledSubmit' type="submit">{status}</button>
+        <br></br>
+        <button className="styledSubmit" type="submit">
+          {status}
+        </button>
       </form>
-
     </StyledContactSection>
   );
 };

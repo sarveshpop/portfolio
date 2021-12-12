@@ -31,7 +31,7 @@ contactEmail.verify(error => {
 router.post('/contact', (req, res) => {
   const name = req.body.name;
   const email = req.body.email;
-  const message = req.body.message; 
+  const message = req.body.message;
   const mail = {
     from: name,
     to: 'sarveshpatil@gmail.com',

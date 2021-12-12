@@ -4,11 +4,17 @@ import { GatsbyImage, getImage } from 'gatsby-plugin-image';
 import styled from 'styled-components';
 import sr from '@utils/sr';
 import { srConfig } from '@config';
-import { Icon } from '@components/icons';
 import { usePrefersReducedMotion } from '@hooks';
 
 const StyledProjectsGrid = styled.ul`
   ${({ theme }) => theme.mixins.resetList};
+
+  ul li::marker {
+    font-size: 0px;
+    padding: 0px !important;
+    display: none !important;
+    visibility: hidden !important;
+  }
 
   a {
     position: relative;
@@ -199,8 +205,7 @@ const StyledProject = styled.li`
     @media (max-width: 768px) {
       justify-items: center;
       grid-template-columns: repeat(2, minmax(140px, 200px));
-      }
-
+    }
 
     li {
       margin: 0 20px 5px 0;
@@ -233,7 +238,6 @@ const StyledProject = styled.li`
       padding: 10px;
 
       &.external {
-
         svg {
           width: 22px;
           height: 22px;
@@ -400,16 +404,15 @@ const Featured = () => {
                         </a>
                       )}
                       {github && (
-                        <a href={github} aria-label="GitHub Link">
-                          <Icon name="GitHub" />
-                        </a>
-                      )}
-                      {external && !cta && (
                         <span aria-label="External Link" className="styledButtonDisabled">
                           Live Demo Coming Soon
-                          {/* <Icon name="External" /> */}
                         </span>
                       )}
+                      {external &&
+                        !cta &&
+                        {
+                          /* <Icon name="External" /> */
+                        }}
                     </div>
                   </div>
                 </div>

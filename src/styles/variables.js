@@ -14,7 +14,7 @@ const variables = css`
     --white: #e6f1ff;
     --green: #64ffda;
     --purple: #a020f0;
-    --purple-tint:rgba(160,32,240,0.1);
+    --purple-tint: rgba(160, 32, 240, 0.1);
     --green-tint: rgba(100, 255, 218, 0.1);
     --green-tintier: rgba(100, 255, 218, 0.3);
 

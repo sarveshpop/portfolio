@@ -1,4 +1,4 @@
-import React  from 'react';
+import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
 import { Icon } from '@components/icons';
@@ -72,22 +72,25 @@ const Footer = () => (
     <StyledSocialLinks>
       <ul>
         {socialMedia &&
-            socialMedia.map(({ name, url }, i) => (
-              <li key={i}>
-                <a href={url} aria-label={name}>
-                  <Icon name={name} />
-                </a>
-              </li>
-            ))}
+          socialMedia.map(({ name, url }, i) => (
+            <li key={i}>
+              <a href={url} aria-label={name}>
+                <Icon name={name} />
+              </a>
+            </li>
+          ))}
       </ul>
     </StyledSocialLinks>
 
     <StyledCredit tabindex="-1">
       <span>
-          Design by
-        <a href="https://github.com/bchiang7/v4">
-          Brittany Chiang
-        </a></span>
+        Design by
+        <a href="https://github.com/bchiang7/v4">Brittany Chiang</a>
+      </span>
+      <span>
+        Adopted by
+        <a href="https://github.com/sarveshpop">Sarvesh Patil</a>
+      </span>
     </StyledCredit>
   </StyledFooter>
 );

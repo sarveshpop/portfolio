@@ -98,7 +98,6 @@ const StyledProject = styled.li`
         padding: 5px 7px;
 
         &.external {
-          
           svg {
             width: 22px;
             height: 22px;

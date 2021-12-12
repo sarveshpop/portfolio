@@ -1,7 +1,7 @@
 ---
 date: '2'
 title: 'SSJ Sports Portal'
-cover: './csma.png'
+cover: './CSMA.png'
 tech:
   - JavaScript
   - NodeJS
@@ -13,4 +13,4 @@ tech:
 
 A web app that allows sports faculty and students to manage all sports related activities in once place.
 Users can book grounds, view/post notices, enroll in teams and keep up with sports relevant news using
-the built-in web scraper that can fetch news from multiple sources on the internet.  
+the built-in web scraper that can fetch news from multiple sources on the internet.

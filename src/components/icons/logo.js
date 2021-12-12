@@ -1,21 +1,37 @@
 import React from 'react';
 
 const IconLogo = () => (
-  <svg id="logo" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 84 96">
-    <title>Logo</title>
-    <g transform="translate(-8.000000, -2.000000)">
-      <g transform="translate(11.000000, 5.000000)">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 134.52 249.26">
+    <defs>
+      <clipPath id="a" transform="translate(10.73 36.2)">
+        <text
+          fill="none"
+          stroke="#fff"
+          strokeMiterlimit="10"
+          strokeWidth="1"
+          fontFamily="TrainOne-Regular,Train One"
+          fontSize="148.96"
+          transform="matrix(1.03 0 0 1 .38 131.46)">
+          S
+        </text>
+      </clipPath>
+    </defs>
+    <g data-name="Layer 2">
+      <g clipPath="url(#a)" data-name="Layer 1">
         <path
-          d="M45.691667,45.15 C48.591667,46.1 50.691667,48.95 50.691667,52.2 C50.691667,57.95 46.691667,61 40.291667,61 L28.541667,61 L28.541667,30.3 L39.291667,30.3 C45.691667,30.3 49.691667,33.15 49.691667,38.65 C49.691667,41.95 47.941667,44.35 45.691667,45.15 Z M33.591667,43.2 L39.241667,43.2 C42.791667,43.2 44.691667,41.85 44.691667,38.95 C44.691667,36.05 42.791667,34.8 39.241667,34.8 L33.591667,34.8 L33.591667,43.2 Z M33.591667,47.5 L33.591667,56.5 L40.191667,56.5 C43.691667,56.5 45.591667,54.75 45.591667,52 C45.591667,49.2 43.691667,47.5 40.191667,47.5 L33.591667,47.5 Z"
-          fill="currentColor"
+          fill="#64ffda"
+          d="m97.23 44.5-22.18 69.44-22.19 69.44-26.43-22.25L0 138.87l22.18-69.43L44.37 0 70.8 22.25 97.23 44.5z"
         />
-        <polygon
-          id="Shape"
-          stroke="currentColor"
+        <path
+          fill="#020c1b"
+          d="m41.5 171.51 21.98 38.88 21.98 38.87 24.53-73.01 24.53-73.01-21.98-38.87-21.98-38.88L66.03 98.5 41.5 171.51z"
+        />
+        <path
+          fill="#fff"
+          stroke="#fff"
+          strokeMiterlimit="10"
           strokeWidth="5"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          points="39 0 0 22 0 67 39 90 78 68 78 23"
+          d="m87.15 36.57-51 147"
         />
       </g>
     </g>

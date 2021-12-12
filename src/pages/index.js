@@ -10,9 +10,9 @@ const StyledMainContainer = styled.main`
 
 const IndexPage = ({ location }) => (
   <Layout location={location}>
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
     <Particles
-      className='particles' 
+      className="particles"
       id="tsparticles"
       options={{
         background: {
@@ -33,7 +33,7 @@ const IndexPage = ({ location }) => (
             },
             resize: true,
           },
-          modes: { 
+          modes: {
             push: {
               quantity: 2,
             },
@@ -42,7 +42,7 @@ const IndexPage = ({ location }) => (
               duration: 1,
               easing: 'ease-out-cubic',
               factor: 50,
-              speed: .5,
+              speed: 0.5,
               maxSpeed: 1,
             },
           },
@@ -62,7 +62,7 @@ const IndexPage = ({ location }) => (
             enable: true,
             outMode: 'bounce',
             random: false,
-            speed: .4,
+            speed: 0.4,
             straight: false,
           },
           number: {
@@ -88,7 +88,7 @@ const IndexPage = ({ location }) => (
               frequency: 0.01,
               opacity: 1,
             },
-          },       
+          },
         },
         detectRetina: true,
       }}

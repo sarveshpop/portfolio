@@ -7,7 +7,8 @@ import { navLinks } from '@config';
 import { loaderDelay } from '@utils';
 import { useScrollDirection, usePrefersReducedMotion } from '@hooks';
 import { Menu } from '@components';
-import { IconLogo } from '@components/icons';
+// import { IconLogo } from '@components/icons';
+import logo from '../images/logo.png';
 
 const StyledHeader = styled.header`
   ${({ theme }) => theme.mixins.flexBetween};
@@ -33,7 +34,7 @@ const StyledHeader = styled.header`
 
   @media (prefers-reduced-motion: no-preference) {
     ${props =>
-    props.scrollDirection === 'up' &&
+      props.scrollDirection === 'up' &&
       !props.scrolledToTop &&
       css`
         height: var(--nav-scroll-height);
@@ -42,7 +43,7 @@ const StyledHeader = styled.header`
       `};
 
     ${props =>
-    props.scrollDirection === 'down' &&
+      props.scrollDirection === 'down' &&
       !props.scrolledToTop &&
       css`
         height: var(--nav-scroll-height);
@@ -76,10 +77,8 @@ const StyledNav = styled.nav`
         }
       }
 
-      svg {
-        fill: none;
-        transition: var(--transition);
-        user-select: none;
+      img {
+        width: 30px;
       }
     }
   }
@@ -161,18 +160,18 @@ const Nav = ({ isHome }) => {
     <div className="logo" tabIndex="-1">
       {isHome ? (
         <a href="/" aria-label="home">
-          <IconLogo />
+          <img src={logo} alt="logo" />
         </a>
       ) : (
         <Link to="/" aria-label="home">
-          <IconLogo />
+          <img src={logo} alt="logo" />
         </Link>
       )}
     </div>
   );
 
   const ResumeLink = (
-    <a className="resume-button" href="/resume.pdf" target="_blank" rel="noopener noreferrer">
+    <a className="resume-button" href="/resumePDF.pdf" target="_blank" rel="noopener noreferrer">
       Resume
     </a>
   );

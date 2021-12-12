@@ -45,11 +45,7 @@ const StyledHeroSection = styled.section`
     ${({ theme }) => theme.mixins.bigButton};
     margin-top: 50px;
   }
-
-
 `;
-
-
 
 const Hero = () => {
   const [isMounted, setIsMounted] = useState(false);
@@ -66,7 +62,9 @@ const Hero = () => {
 
   const one = <h1>Hi, my name is</h1>;
   const two = <h2 className="big-heading">Sarvesh Patil.</h2>;
-  const three = <h3 className="medium-heading">Full Stack Developer | CG Artist | UI/UX Developer</h3>;
+  const three = (
+    <h3 className="medium-heading">Full Stack Developer | CG Artist | UI/UX Developer</h3>
+  );
 
   /*   
   const four = (
@@ -83,7 +81,7 @@ const Hero = () => {
     </>
   ); 
   */
- 
+
   /* 
   const five = (
     <a
@@ -98,7 +96,7 @@ const Hero = () => {
   const items = [one, two, three];
 
   return (
-    <StyledHeroSection>      
+    <StyledHeroSection>
       {prefersReducedMotion ? (
         <>
           {items.map((item, i) => (
@@ -115,11 +113,10 @@ const Hero = () => {
             ))}
         </TransitionGroup>
       )}
-      <a className='next' href='#about'>
-        <MaterialIcon className='nextIcon' icon="expand_more" size={64}/>
+      <a className="next" href="#about">
+        <MaterialIcon className="nextIcon" icon="expand_more" size={64} />
       </a>
     </StyledHeroSection>
-
   );
 };
 

@@ -62,17 +62,11 @@ const Contact = () => {
 
       <h2 className="title">Get In Touch</h2>
 
-      <div>
-        
-      </div>
+      <div></div>
 
-      <p>
-        OR 
-      </p>
+      <p>OR</p>
 
-      <p>
-        Send me a message. My inbox is always open. 
-      </p>
+      <p>Send me a message. My inbox is always open.</p>
 
       <form onSubmit={handleSubmit}>
         <div>

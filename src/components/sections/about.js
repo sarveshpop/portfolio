@@ -21,62 +21,58 @@ const StyledAboutSection = styled.section`
 
     .resumeSection {
       position: absolute;
-      margin: 60px 150px 0 0 ;
+      margin: 60px 150px 0 0;
       right: 0;
       @media (max-width: 768px) {
+        display: none;
+      }
+    }
+  }
+
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    display: inline-block;
+    position: absolute;
+    @media (max-width: 768px) {
       display: none;
     }
-      
-    }
-
-    
   }
 
-/* The container <div> - needed to position the dropdown content */
-.dropdown {
-  display: inline-block;
-  position: absolute;
-    @media (max-width: 768px) {
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
     display: none;
+    position: absolute;
+    background-color: rgba(2, 12, 27, 0.5);
+    min-width: 148px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    margin-left: -108px;
   }
-}
 
-/* Dropdown Content (Hidden by Default) */
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: rgba(2, 12, 27, 0.5);
-  min-width: 148px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-  margin-left: -108px; 
-}
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: var(--white);
+    padding: 10px 16px;
+    text-decoration: none;
+    font-size: var(--fz-md);
+    display: block;
+  }
 
-/* Links inside the dropdown */
-.dropdown-content a {
-  color: var(--white);
-  padding: 10px 16px ;
-  text-decoration: none;
-  font-size: var(--fz-md);
-  display: block;
-  
-}
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {
+    background-color: var(--green-tint);
+  }
 
-/* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: var(--green-tint)}
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
 
-/* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {
-  display: block;
-}
-
-.dl {
-  padding-left: 10px;
-  vertical-align: super !important;
-}
-
+  .dl {
+    padding-left: 10px;
+    vertical-align: super !important;
+  }
 `;
-
 
 const StyledText = styled.div`
   ul.skills-list {
@@ -100,8 +96,8 @@ const StyledText = styled.div`
       font-size: var(--fz-md);
       color: var(--green);
       @media (max-width: 600px) {
-      font-size: var(--fz-xs);
-    }
+        font-size: var(--fz-xs);
+      }
 
       &:before {
         content: '▹';
@@ -159,10 +155,11 @@ const StyledPic = styled.div`
       transition: var(--transition);
     }
 
-    .wrapper, .img {
+    .wrapper,
+    .img {
       @media (max-width: 600px) {
-    display: none;
-  }
+        display: none;
+      }
     }
 
     &:before,
@@ -190,7 +187,6 @@ const StyledPic = styled.div`
       z-index: -1;
     }
   }
-
 `;
 
 const About = () => {
@@ -205,8 +201,17 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['JavaScript', 'TypeScript', 'React', 'Node.js', 'Python', 'PHP', 'SQL', 'MongoDB', 'WebGL'];
-
+  const skills = [
+    'JavaScript',
+    'TypeScript',
+    'React',
+    'Node.js',
+    'Python',
+    'PHP',
+    'SQL',
+    'MongoDB',
+    'WebGL',
+  ];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -216,13 +221,16 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello! My name is Sarvesh, I am a passionate developer, avid learner, a tech enthusiast, and a Full stack developer adept in bringing forth
-              expertise in designing, installation, testing and maintenance of web applications and software systems.
+              Hello! My name is Sarvesh, I am a passionate developer, avid learner, a tech
+              enthusiast, and a Full stack developer adept in bringing forth expertise in designing,
+              installation, testing and maintenance of web applications and software systems.
               Committed to utilizing my knowledge and skills to make amazing things.
             </p>
 
             <p>
-              I am currently pursuing a B.Tech in Information Technology at <a href='https://shivajiraojondhalecoe.org.in/'>SSJ College of Engineering</a>, Dombivli East.
+              I am currently pursuing a B.Tech in Information Technology at{' '}
+              <a href="https://shivajiraojondhalecoe.org.in/">SSJ College of Engineering</a>,
+              Dombivli East.
             </p>
 
             <p>Here are a few technologies I’ve been working with recently:</p>
@@ -232,7 +240,7 @@ const About = () => {
             {skills && skills.map((skill, i) => <li key={i}>{skill}</li>)}
           </ul>
         </StyledText>
-        <div className='StyledPic'>
+        <div className="StyledPic">
           <StyledPic>
             <div className="wrapper">
               <StaticImage
@@ -246,20 +254,36 @@ const About = () => {
             </div>
           </StyledPic>
           <div className="resumeSection">
-            <a className='styledButton' href='#resume'><span>Resume</span></a>
+            <a
+              className="styledButton"
+              href="/resumePDF.pdf"
+              target="_blank"
+              rel="noopener noreferrer">
+              <span>Resume</span>
+            </a>
             <div className="dropdown">
-              <button className="styledDropButton"><MaterialIcon icon="arrow_drop_down" size={38} /></button>
+              <button className="styledDropButton">
+                <MaterialIcon icon="arrow_drop_down" size={38} />
+              </button>
               <div className="dropdown-content">
-                <a href="#1"><MaterialIcon icon="download"/><span className='dl'>PDF</span></a>
-                <a href="#2"><MaterialIcon icon="download"/><span className='dl'>LaTex</span></a>
-                <a href="#3">View as HTML</a>
+                <a href="/resumePDF.pdf" target="_blank" rel="noopener noreferrer">
+                  <MaterialIcon icon="download" />
+                  <span className="dl">PDF</span>
+                </a>
+                <a href="/resumeTEX.tex" target="_blank" rel="noopener noreferrer">
+                  <MaterialIcon icon="download" />
+                  <span className="dl">LaTex</span>
+                </a>
+                <a href="/resumeHTML.html" target="_blank" rel="noopener noreferrer">
+                  View as HTML
+                </a>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <a className='next' href='#projects'>
-        <MaterialIcon className='nextIcon' icon="expand_more" size={64}/>
+      <a className="next" href="#projects">
+        <MaterialIcon className="nextIcon" icon="expand_more" size={64} />
       </a>
     </StyledAboutSection>
   );
