@@ -91,7 +91,7 @@ const ContactForm = () => {
     
   return (
     <StyledContactSection id="contact">
-      <h2 className="numbered-heading overline">What’s Next?</h2>
+      <h2 className="numbered-heading overline">Contact</h2>
 
       <h2 className="title">Get In Touch</h2>
       <p className='socialText'>
