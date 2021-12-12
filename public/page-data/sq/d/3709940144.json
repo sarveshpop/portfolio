@@ -1,1 +1,92 @@
-{"data":{"featured":{"edges":[{"node":{"frontmatter":{"title":"SSJ Sports Portal","cover":{"childImageSharp":{"gatsbyImageData":{"layout":"constrained","placeholder":{"fallback":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAMCAIAAADtbgqsAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAC1klEQVQoz03N/TOaAQDA8ed/2HZDLyPp8Tx5qfSknlc0VNKLdJW8FJFF1BJim7w2FtndvA07t9txpIW8LJKw7YdhY7c/aOeX3e4+v37vC1BkmCS2/8GxMIqGcTQsFUdkyGe1MKoX7Jr5MWvBfnvBoYsX780/HoATE4LzGeQC+D8m8LBSuafTHhhUh/XKoxZVvE0ed8pO3OWJvvJkP57s4R4P5iX8UDIApaahFEASWyQRoch7BL6tVMSM6iOLJm5RfHFUn3jUyd6qs/7ylF92MUxd+ODEMHwWAFNB9vksO3V/JvAtVLKOoRs4tkEi6xXIZpUwrBVsG/k79fk7Fjhqh/acYKwHPHwJx0c4x69zTt9mn8+zLgGK2pGIAxhql4g7JCJHZWmPiGuTQDYMaq6AfbXIqBrp1hU9NyA9tYVu5RO7LttZzWzxZs6tsa4AkohKywImk8ug91JoU2WpTYpacF6dKFcrBTsUea46eacKsSn5llpxm05o03CtJL3ayZhcz7wBKDKKit8Qku5SiVcEO8S5Dgp2UpxOMrtdkzuih8Zay8bMvEE1o9uQ5TFn9ZrpXhOta5i5usW8AigygonfY4KJEv5kZVFQURisgqY08HQtFGzO+9ACLhvSA1bGTBe44Mqa9zDnfcwlH2P+HWM3QvsBSMldrGio0eitkbueiluUuL2koKGcZy3lmmSZTkuxP7y2N9Qa1PPa6oQODbvJANpUbNML+uxRxi0gI2KEYMisdxlVHglsKOHVS3mNZdx6lKWVMzvs5NjGSmTUEZKzzDWwVcmoU9PNMpr2VUYokfYbqMZ2qoQrCv6Uhh/ScKd1uUEDONPACVlyQt2cNTd77Rkt5GbM9TEXB2gLftrSeMbyRNrix7T900e/AG1x1Cg6bEKOWwUnnYJTDy/lKzwfyrsch79Ngl9nc74vsq9WWdefMm82GT+j9NuD9LvE4z9nD++SD67/AkuKFeKhHN2QAAAAAElFTkSuQmCC"},"images":{"fallback":{"src":"/static/62f4c03d00b74857573b0f2398b97cec/1cb98/CSMA.png","srcSet":"/static/62f4c03d00b74857573b0f2398b97cec/9dd1a/CSMA.png 250w,\n/static/62f4c03d00b74857573b0f2398b97cec/ba86c/CSMA.png 500w,\n/static/62f4c03d00b74857573b0f2398b97cec/1cb98/CSMA.png 1000w","sizes":"(min-width: 1000px) 1000px, 100vw"},"sources":[{"srcSet":"/static/62f4c03d00b74857573b0f2398b97cec/cb969/CSMA.avif 250w,\n/static/62f4c03d00b74857573b0f2398b97cec/8c1a4/CSMA.avif 500w,\n/static/62f4c03d00b74857573b0f2398b97cec/ad61d/CSMA.avif 1000w","type":"image/avif","sizes":"(min-width: 1000px) 1000px, 100vw"},{"srcSet":"/static/62f4c03d00b74857573b0f2398b97cec/eae4e/CSMA.webp 250w,\n/static/62f4c03d00b74857573b0f2398b97cec/83762/CSMA.webp 500w,\n/static/62f4c03d00b74857573b0f2398b97cec/6814f/CSMA.webp 1000w","type":"image/webp","sizes":"(min-width: 1000px) 1000px, 100vw"}]},"width":1000,"height":611}}},"tech":["JavaScript","NodeJS","Electron","Python","SQL","SASS"],"github":null,"external":null},"html":"<p>A web app that allows sports faculty and students to manage all sports related activities in once place.\nUsers can book grounds, view/post notices, enroll in teams and keep up with sports relevant news using\nthe built-in web scraper that can fetch news from multiple sources on the internet.</p>"}}]}}}
+{
+  "data": {
+    "featured": {
+      "edges": [
+        {
+          "node": {
+            "frontmatter": {
+              "title": "Jager Automotive Website",
+              "cover": {
+                "childImageSharp": {
+                  "gatsbyImageData": {
+                    "layout": "constrained",
+                    "placeholder": {
+                      "fallback": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAAA7EAAAOxAGVKw4bAAABV0lEQVQoz42S20rDQBRF55y5JWkTQwMRUcSHFim1QsSXQiBUYq3a9C2/0P//gtmatPQu9mFlCGRW9p4zotPpuDiOnRDiIpRS/33TPrAPEbXrcDjEYrHAZDJBXdeoqgrL5RKe5+F4z4adkIgcCbGFmV2WZa4sS5fnuavr2s3nczebzZzn+Zs0tJ8MxwndH3+9hEOhsRaPo7HL395RflX4/K4wLaawzOgywxBtj2HdxoDZA7GFlBbM+lDY6Ya4ub1z/f4Az6MxsqcxXtJrfLDCq9LwpQIJgTAM0UsSBEEMa3sg6iK6ukeSPDgh+LSylArKGLBSkMyIlUaoNEwQwPP9Fj8IoI2GtRZKK0jFzeo2DdbC5kVK2VwJNBDxtl4rl7KFpWyrNzDLFmJuByr2hcdDiaIIq9UKRVGcDKC5MmEUHpzpbi+dF2qtMRgMkKbpibBJaow5L/xN+gMRa94sRmKa3wAAAABJRU5ErkJggg=="
+                    },
+                    "images": {
+                      "fallback": {
+                        "src": "/static/debeb012828312628ff634f2698c7069/c9993/jager.png",
+                        "srcSet": "/static/debeb012828312628ff634f2698c7069/25d0b/jager.png 250w,\n/static/debeb012828312628ff634f2698c7069/4895a/jager.png 500w,\n/static/debeb012828312628ff634f2698c7069/c9993/jager.png 1000w",
+                        "sizes": "(min-width: 1000px) 1000px, 100vw"
+                      },
+                      "sources": [
+                        {
+                          "srcSet": "/static/debeb012828312628ff634f2698c7069/b4e73/jager.avif 250w,\n/static/debeb012828312628ff634f2698c7069/66ea8/jager.avif 500w,\n/static/debeb012828312628ff634f2698c7069/600e0/jager.avif 1000w",
+                          "type": "image/avif",
+                          "sizes": "(min-width: 1000px) 1000px, 100vw"
+                        },
+                        {
+                          "srcSet": "/static/debeb012828312628ff634f2698c7069/1866f/jager.webp 250w,\n/static/debeb012828312628ff634f2698c7069/7f57e/jager.webp 500w,\n/static/debeb012828312628ff634f2698c7069/c57a4/jager.webp 1000w",
+                          "type": "image/webp",
+                          "sizes": "(min-width: 1000px) 1000px, 100vw"
+                        }
+                      ]
+                    },
+                    "width": 1000,
+                    "height": 509
+                  }
+                }
+              },
+              "tech": ["JavaScript", "NodeJS", "React", "ThreeJS", "SASS", "Blender"],
+              "github": "coming soon",
+              "external": null
+            },
+            "html": "<p>Jager Automotive is a unique demonstrative website which utilizes advanced 3D Graphics\r\nto provide an unprecedented user experience where customers can view, customize and modify\r\nthier vehicles in real-time.</p>"
+          }
+        },
+        {
+          "node": {
+            "frontmatter": {
+              "title": "SSJ Sports Portal",
+              "cover": {
+                "childImageSharp": {
+                  "gatsbyImageData": {
+                    "layout": "constrained",
+                    "placeholder": {
+                      "fallback": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAMCAIAAADtbgqsAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAC1klEQVQoz03N/TOaAQDA8ed/2HZDLyPp8Tx5qfSknlc0VNKLdJW8FJFF1BJim7w2FtndvA07t9txpIW8LJKw7YdhY7c/aOeX3e4+v37vC1BkmCS2/8GxMIqGcTQsFUdkyGe1MKoX7Jr5MWvBfnvBoYsX780/HoATE4LzGeQC+D8m8LBSuafTHhhUh/XKoxZVvE0ed8pO3OWJvvJkP57s4R4P5iX8UDIApaahFEASWyQRoch7BL6tVMSM6iOLJm5RfHFUn3jUyd6qs/7ylF92MUxd+ODEMHwWAFNB9vksO3V/JvAtVLKOoRs4tkEi6xXIZpUwrBVsG/k79fk7Fjhqh/acYKwHPHwJx0c4x69zTt9mn8+zLgGK2pGIAxhql4g7JCJHZWmPiGuTQDYMaq6AfbXIqBrp1hU9NyA9tYVu5RO7LttZzWzxZs6tsa4AkohKywImk8ug91JoU2WpTYpacF6dKFcrBTsUea46eacKsSn5llpxm05o03CtJL3ayZhcz7wBKDKKit8Qku5SiVcEO8S5Dgp2UpxOMrtdkzuih8Zay8bMvEE1o9uQ5TFn9ZrpXhOta5i5usW8AigygonfY4KJEv5kZVFQURisgqY08HQtFGzO+9ACLhvSA1bGTBe44Mqa9zDnfcwlH2P+HWM3QvsBSMldrGio0eitkbueiluUuL2koKGcZy3lmmSZTkuxP7y2N9Qa1PPa6oQODbvJANpUbNML+uxRxi0gI2KEYMisdxlVHglsKOHVS3mNZdx6lKWVMzvs5NjGSmTUEZKzzDWwVcmoU9PNMpr2VUYokfYbqMZ2qoQrCv6Uhh/ScKd1uUEDONPACVlyQt2cNTd77Rkt5GbM9TEXB2gLftrSeMbyRNrix7T900e/AG1x1Cg6bEKOWwUnnYJTDy/lKzwfyrsch79Ngl9nc74vsq9WWdefMm82GT+j9NuD9LvE4z9nD++SD67/AkuKFeKhHN2QAAAAAElFTkSuQmCC"
+                    },
+                    "images": {
+                      "fallback": {
+                        "src": "/static/62f4c03d00b74857573b0f2398b97cec/1cb98/CSMA.png",
+                        "srcSet": "/static/62f4c03d00b74857573b0f2398b97cec/9dd1a/CSMA.png 250w,\n/static/62f4c03d00b74857573b0f2398b97cec/ba86c/CSMA.png 500w,\n/static/62f4c03d00b74857573b0f2398b97cec/1cb98/CSMA.png 1000w",
+                        "sizes": "(min-width: 1000px) 1000px, 100vw"
+                      },
+                      "sources": [
+                        {
+                          "srcSet": "/static/62f4c03d00b74857573b0f2398b97cec/cb969/CSMA.avif 250w,\n/static/62f4c03d00b74857573b0f2398b97cec/8c1a4/CSMA.avif 500w,\n/static/62f4c03d00b74857573b0f2398b97cec/ad61d/CSMA.avif 1000w",
+                          "type": "image/avif",
+                          "sizes": "(min-width: 1000px) 1000px, 100vw"
+                        },
+                        {
+                          "srcSet": "/static/62f4c03d00b74857573b0f2398b97cec/eae4e/CSMA.webp 250w,\n/static/62f4c03d00b74857573b0f2398b97cec/83762/CSMA.webp 500w,\n/static/62f4c03d00b74857573b0f2398b97cec/6814f/CSMA.webp 1000w",
+                          "type": "image/webp",
+                          "sizes": "(min-width: 1000px) 1000px, 100vw"
+                        }
+                      ]
+                    },
+                    "width": 1000,
+                    "height": 611
+                  }
+                }
+              },
+              "tech": ["JavaScript", "NodeJS", "Electron", "Python", "SQL", "SASS"],
+              "github": null,
+              "external": null
+            },
+            "html": "<p>A web app that allows sports faculty and students to manage all sports related activities in once place.\nUsers can book grounds, view/post notices, enroll in teams and keep up with sports relevant news using\nthe built-in web scraper that can fetch news from multiple sources on the internet.</p>"
+          }
+        }
+      ]
+    }
+  }
+}
