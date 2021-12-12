@@ -80,7 +80,7 @@ const ContactForm = () => {
       },
       body: JSON.stringify(details),
     });
-    setStatus('Submit');
+    setStatus('Send');
     const result = await response.json();
     alert(result.status);
   };
