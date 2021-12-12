@@ -12,8 +12,9 @@ tech:
 - SASS
 - Blender
 
-## github: 'coming soon'
+github: 'coming soon'
 
+---
 Jager Automotive is a unique demonstrative website which utilizes advanced 3D Graphics
 to provide an unprecedented user experience where customers can view, customize and modify
 thier vehicles in real-time.
