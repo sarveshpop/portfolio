@@ -4,7 +4,7 @@ module.exports = {
   siteMetadata: {
     title: 'Sarvesh Patil',
     description: 'Sarvesh Patil - Portfolio',
-    siteUrl: 'https://brittanychiang.com', // No trailing slash allowed!
+    siteUrl: 'https://sarvesh-patil.onrender.com', // No trailing slash allowed!
     image: '/og.png', // Path to your image you placed in the 'static' folder
     twitterUsername: '@bchiang7',
   },
