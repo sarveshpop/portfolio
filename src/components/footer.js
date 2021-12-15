@@ -84,10 +84,6 @@ const Footer = () => (
 
     <StyledCredit tabindex="-1">
       <span>
-        Design by
-        <a href="https://github.com/bchiang7/v4">Brittany Chiang</a>
-      </span>
-      <span>
         Built by
         <a href="https://github.com/sarveshpop">Sarvesh Patil</a>
       </span>
