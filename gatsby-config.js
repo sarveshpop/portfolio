@@ -6,7 +6,7 @@ module.exports = {
     description: 'Sarvesh Patil - Portfolio',
     siteUrl: 'https://sarvesh-patil.onrender.com', // No trailing slash allowed!
     image: '/og.png', // Path to your image you placed in the 'static' folder
-    twitterUsername: '@bchiang7',
+    twitterUsername: '@ARKADE101',
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
